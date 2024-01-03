@@ -1,4 +1,3 @@
+#!/usr/bin/python3
 def magic_calculation(a, b):
-constant_value = 98
-result = b ** a
-return constant_value + result
+    return (98 + a ** b)
