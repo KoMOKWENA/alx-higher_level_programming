@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     try:
-        num = 0
+        count = 0
         for item in my_list:
-            if num < x:
+            if count < x:
                 print(item, end=" ")
-                num += 1
+                count += 1
         print()
-        return num
-    try:
+        return count
+    except:
         print("An error occurred")
